@@ -1,5 +1,3 @@
-{{#each model as |boardStat|}}
-    {{score-card score=boardStat.avgNoTixPerWeek statName="Tickets Per Week"}}
-    {{score-card score=boardStat.avgPoints statName="Points Per Week"}}
-{{/each}}
+{{score-card score=model.avgNoTixPerWeek statName="Tickets Per Week"}}
+{{score-card score=model.avgPoints statName="Points Per Week"}}
 {{outlet}}
