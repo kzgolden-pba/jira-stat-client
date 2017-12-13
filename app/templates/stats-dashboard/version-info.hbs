@@ -1,0 +1,9 @@
+versionInfo
+<ul>
+{{#each model as |ticket|}}
+    <li>
+        {{link-priority-card name=ticket.key url=ticket.url}}
+    </li>
+{{/each}}
+</ul>
+{{outlet}}

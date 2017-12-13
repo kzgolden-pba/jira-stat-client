@@ -7,7 +7,9 @@ const Router = EmberRouter.extend({
 });
 
 Router.map(function() {
-  this.route('stats-dashboard');
+  this.route('stats-dashboard', function() {
+    this.route('version-info');
+  });
 });
 
 export default Router;
