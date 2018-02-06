@@ -5,5 +5,6 @@ export default DS.Model.extend({
     storyPoints: DS.attr('number'),
     summary: DS.attr('string'),
     url: DS.attr('string'),
-    targetVersions: DS.attr()
+    targetVersions: DS.attr(),
+    status: DS.attr()
 });

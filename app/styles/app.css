@@ -1,5 +1,5 @@
 body {
-    background-color: purple;
+    background-color: white;
 }
 .score-card {
     margin: 5px;
@@ -11,4 +11,15 @@ body {
 }
 .text-large {
     font-size: 200px;
+}
+
+.link-card {
+    background-color: lightgrey;
+    display: inline-block;
+    border-radius: 5px;
+    padding: 15px;
+}
+
+.is-pointless {
+    background-color: red;
 }
