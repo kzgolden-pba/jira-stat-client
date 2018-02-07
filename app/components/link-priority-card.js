@@ -6,6 +6,6 @@ export default Component.extend({
     url: null,
     points: null,
     classNameBindings: ['isPointless'],
-    classNames: ['link-card'],
+    classNames: ['link-priority-card'],
     isPointless: computed.empty('points')
 });

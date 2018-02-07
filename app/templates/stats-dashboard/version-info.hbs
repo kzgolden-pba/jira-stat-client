@@ -1,9 +1,6 @@
-versionInfo
-<ul>
 {{#each model as |ticket|}}
-    <li>
-        {{link-priority-card name=ticket.key url=ticket.url points=ticket.storyPoints maxPoints=maxPoints}}
-    </li>
+    {{link-priority-card name=ticket.key url=ticket.url points=ticket.storyPoints maxPoints=maxPoints}}
 {{/each}}
-</ul>
+
+
 {{outlet}}
