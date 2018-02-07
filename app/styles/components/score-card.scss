@@ -1,0 +1,21 @@
+dl.score-card {
+    margin: 5px;
+    background-color: rgb(130, 189, 65);
+    display: inline-block;
+    color: white;
+    padding: 5px;
+
+    dt,
+    dd {
+        display: inline;
+    }
+
+    dt.score {
+        font-size: 19pt;
+    }
+
+    dd.name {
+        font-size: 11pt;
+        -webkit-margin-start: 20px;
+    }
+}

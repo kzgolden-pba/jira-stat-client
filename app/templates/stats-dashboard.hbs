@@ -1,3 +1,15 @@
-<div>{{score-card score=model.avgNoTixPerWeek statName="Tickets Per Week"}}
-{{score-card score=model.avgPoints statName="Points Per Week"}}</div>
-{{outlet}}
+<nav class="main-nav">
+    <ul>
+        <li class="title">JIRA Stat Client</li>
+    </ul>
+</nav>
+<section class="score-cards">
+    {{score-card score=model.avgNoTixPerWeek statName="Tickets Per Week"}}
+    {{score-card score=model.stdDeviationNoTix statName="TPW Deviation"}}
+    {{score-card score=model.avgPoints statName="Points Per Week"}}
+    {{score-card score=model.stdDevPoints statName="PPW Deviation"}}
+</section>
+<section class="dashboard-outlet">
+    {{outlet}}
+</section>
+
