@@ -1,6 +1,6 @@
 import { moduleFor, test } from 'ember-qunit';
 
-moduleFor('controller:stats-dashboard/version-info', 'Unit | Controller | stats dashboard/version info', {
+moduleFor('controller:stats-dashboard/board-overview', 'Unit | Controller | stats dashboard/board overview', {
   // Specify the other units that are required for this test.
   // needs: ['controller:foo']
 });

@@ -1,0 +1,24 @@
+.issue-tile {
+    background-color: white;
+    display: inline-block;
+    border-radius: 5px;
+    margin: 3px;
+    padding: 15px;
+
+    &.is-pointless {
+        background-color: rgb(251, 195, 55);
+    }
+
+    &.is-closed {
+        background-color: rgb(231, 51, 0);
+    }
+
+    &.is-hidden {
+        display: none;
+    }
+
+    a {
+        color: rgb(0, 171, 204);
+    }
+}
+
