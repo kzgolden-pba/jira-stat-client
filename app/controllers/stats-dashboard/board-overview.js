@@ -5,5 +5,13 @@ export default Controller.extend({
     queryParams: ['boardId'],
     boardId: 304,
     storyPoints: computed.mapBy('model', 'storyPoints'),
-    maxPoints: computed.max('storyPoints')
+    maxPoints: computed.max('storyPoints'),
+
+    hideClosed: true,
+
+    actions: {
+        toggleClosedVisibility(){
+            this.toggleProperty('hideClosed');
+        }
+    }
 });

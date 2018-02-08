@@ -1,0 +1,16 @@
+<div>
+    <button class="btn" {{action "toggleClosedVisibility"}}>
+        {{#if hideClosed}}
+            Show Closed
+        {{else}}
+            Hide Closed
+        {{/if}}
+    </button>
+</div>
+
+
+{{#each model as |ticket|}}
+    {{issue-tile issue=ticket maxPoints=maxPoints hideClosed=hideClosed}}
+{{/each}}
+
+{{outlet}}
