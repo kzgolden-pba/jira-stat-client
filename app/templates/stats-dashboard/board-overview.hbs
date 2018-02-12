@@ -10,7 +10,7 @@
 
 
 {{#each model as |ticket|}}
-    {{issue-tile issue=ticket maxPoints=maxPoints hideClosed=hideClosed}}
+    {{issue-tile issue=ticket maxPoints=maxPoints closedStatuses=closedStatusIds hideClosed=hideClosed}}
 {{/each}}
 
 {{outlet}}

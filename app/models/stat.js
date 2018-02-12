@@ -10,4 +10,8 @@ export default DS.Model.extend({
     totalTix: DS.attr('number'),
     stdDeviationNoTix: DS.attr('number'),
     avgNoTixPerWeek: DS.attr('number'),
+    inProgressTix: DS.attr('number'),
+    inProgressPts: DS.attr('number'),
+    currentWeekTix: DS.attr('number'),
+    currentWeekPts: DS.attr('number'),
 });
