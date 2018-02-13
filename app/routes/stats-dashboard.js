@@ -2,6 +2,6 @@ import Route from '@ember/routing/route';
 
 export default Route.extend({
     model() {
-        return this.store.find('stat', 304);
-    }
+        return this.store.findRecord('stat', 304);
+    },
 });

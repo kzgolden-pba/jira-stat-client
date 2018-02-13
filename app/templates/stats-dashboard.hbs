@@ -8,6 +8,11 @@
     {{score-card score=model.stdDeviationNoTix statName="TPW Deviation"}}
     {{score-card score=model.avgPoints statName="Points Per Week"}}
     {{score-card score=model.stdDevPoints statName="PPW Deviation"}}
+    <hr/>
+    {{score-card score=model.inProgressTix statName="Tickets In Progress"}}
+    {{score-card score=model.inProgressPts statName="Points In Progress"}}
+    {{score-card score=model.currentWeekTix statName="Tickets Closed This Week"}}
+    {{score-card score=model.currentWeekPts statName="Points Completed This Week"}}
 </section>
 <section class="dashboard-outlet">
     {{outlet}}
